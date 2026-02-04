@@ -20,34 +20,34 @@ export const tvShows = [
     episodes: [
       {
         number: 1,
-        title: "The Awakening",
-        description: "A crew discovers an alien signal from a distant galaxy.",
+        title: "The Awakening of Ashley",
+        description: "Ashley's crew discovers an alien signal from a distant galaxy.",
       },
       {
         number: 2,
-        title: "Lost in Space",
-        description: "The crew faces a malfunction that sends them off course.",
+        title: "Ashley - Lost in Space",
+        description: "Ashley's crew faces a malfunction that sends them off course.",
       },
       {
         number: 3,
-        title: "The Hidden Planet",
+        title: "The Hidden Planet Of Lio",
         description:
-          "They land on a mysterious planet with strange life forms.",
+          "They land on a mysterious planet with strange life forms, one of them called Lio.",
       },
       {
         number: 4,
-        title: "Echoes of the Past",
-        description: "A distress signal reveals a long-lost spaceship.",
+        title: "Echoes of Lio's Past",
+        description: "A distress signal reveals a long-lost spaceship that Lio has been hidding for a while.",
       },
       {
         number: 5,
-        title: "Dark Matter",
-        description: "An unknown entity begins to infiltrate the ship.",
+        title: "Jesus' Dark Matter",
+        description: "An unknown entity begins to infiltrate the ship they suspect is a long lost soul called Jesus.",
       },
       {
         number: 6,
-        title: "The Divide",
-        description: "Tensions rise among the crew as supplies dwindle.",
+        title: "The Divide Prophesy Of Ashley and Lio",
+        description: "Tensions rise among the crew as supplies dwindle. Lio and Ashley now working together must make an important decision. Is it real love?",
       },
       {
         number: 7,

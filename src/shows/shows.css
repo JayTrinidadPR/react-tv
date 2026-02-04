@@ -1,19 +1,44 @@
 .shows {
   display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  flex-wrap: wrap;
 }
 
 .show {
-  padding: 0 1ch;
+  padding: 0.35rem 0.65rem;
+  border-radius: 999px;
+  color: rgba(255, 255, 255, 0.86);
+  text-decoration: none;
+  font-weight: 650;
+  font-size: 0.95rem;
+
+  transition: background 120ms ease, color 120ms ease, transform 120ms ease,
+    border 120ms ease;
+  border: 1px solid transparent;
 }
 
 .show:not(:last-child) {
-  border-right: 1px solid white;
+  border-right: none; /* remove the old pipe look */
 }
 
-.show:hover,
-.show.selected {
+.show:hover {
   cursor: pointer;
-  text-decoration: underline;
+  background: rgba(255, 255, 255, 0.10);
+  border-color: rgba(255, 255, 255, 0.14);
+  color: rgba(255, 255, 255, 0.96);
+  transform: translateY(-1px);
+  text-decoration: none; /* modern: no underline */
+}
+
+.show.selected {
+  background: rgba(60, 130, 255, 0.20);
+  border-color: rgba(60, 130, 255, 0.35);
+  color: rgba(255, 255, 255, 0.98);
+}
+
+.show:visited {
+  color: rgba(255, 255, 255, 0.86);
 }
 
 .show-details {
@@ -21,8 +46,9 @@
   gap: 1rem;
 }
 
-@media (width >= 500px) {
+@media (width >= 700px) {
   .show-details {
-    grid-template-columns: minmax(30ch, auto) 1fr;
+    grid-template-columns: minmax(30ch, 360px) 1fr;
+    align-items: start;
   }
 }
